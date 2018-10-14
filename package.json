@@ -1,0 +1,26 @@
+{
+  "name": "text-to-t9",
+  "version": "0.0.0",
+  "description": "Convert words to T9 strings",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shockey/text-to-t9.git"
+  },
+  "main": "lib/index.js",
+  "module": "esm/index.mjs",
+  "scripts": {
+    "build": "babel src/index.mjs -d lib",
+    "test": "node test/index.js",
+    "release": "release-it"
+  },
+  "author": "Kyle Shockey <kyleshockey@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "release-it": "^7.6.1",
+    "tape": "^4.9.1"
+  }
+}

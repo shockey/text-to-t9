@@ -1,0 +1,10 @@
+{
+  "src": {
+    "commitMessage": "release: v%s",
+    "tagName": "v%s",
+    "tagDescription": "v%s"
+  },
+  "github": {
+    "releaseName": "v%s"
+  }
+}
